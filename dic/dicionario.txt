@@ -1,1 +1,164 @@
+Projeto 03 / De #F051 até #F064
 
+Formularios = enviar email, cadastro de pessoas, (enviar dados para algum lugar)
+
+label = escrever a especificção de qual é o campo / Tambem é importante para a acessebilidade "for"
+input = entradas de dados
+
+type = tipo
+
+name = enviar o dado para o servidor, guardar esse dado, o name define o valor que tera nesse campo
+
+id = identificador único dessa tag
+
+
+
+campos que não tem conteudo tem o fechamento nele mesmo /
+
+
+
+<!--
+  <label for="titulo">Título do evento </label>
+    <input type="text" name="titulo" id="titulo"/>
+
+    <input type="password" name="" id="">
+    <input type="number" name="" id="">
+    <input type="checkbox" name="" id="">
+
+    <select name="" id="">
+      <option value="music">Música</option>
+      <option value="movie">Filme</option>
+    </select>
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    O tamanho do textarea é definifo no css, então não teria
+    o cols="30" rows="10".
+    <textarea name="" id=""></textarea>
+-->
+
+
+
+                  MUITO Importante
+
+<form action="" method="">
+  ...inputs(conteudos)
+</form>
+
+action = vai dizer para onde o formulario sera enviado
+
+method = 2 tipos (protocolo http)
+<!--
+  mais comuns em Formularios
+  GET: RECEBER e enviar recursos     (padrão)       envio recursos pela URL
+  POST: ENVIAR recursos                             envio recursos pelo CORPO da Requisição
+
+
+  Query String Parameters = Parametros da URL
+
+-->
+
+
+<input type="hidden" name=""> = input escondido para quem esta vendo o formulario
+
+
+
+
+display = mostrar
+
+position = posição (destrava top, left, right and botton)(destrava propriedade z-index)
+
+z-index = sobreposição (-1 fica atras das coisas)
+
+
+
+<fieldset> = conjunto de campos (agrupamentos)
+<legend> = legenda para o conjunto
+
+
+inline 
+inline-block
+
+
+
+
+box-sizing: border-box; = funciona para o calculo do tamanho da caixa
+
+
+
+
+* ñ entendi muito bem o div e como as palavras ficaram ali no meio
+
+
+
+
+
+
+
+      SELETOR UNIVERSAL
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+  appearance: none;
+
+  antigos:
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+
+
+
+
+
+  vander prefixes = motores que existem por tras dos navegadores que estão trabalahando com o css
+
+	appearance: none;
+	-(moz)-appearance: none;
+	-(webkit)-appearance: none;
+	-(ms)-appearance: none;
+  prefixes
+
+
+
+pseudo-classe = servem para ver o estado do seu elemento 
+
+
+required = obrrigatorio
+minlength = min de letras
+
+
+botão dentro de formulario vai automaticamente entender que ele é submiit
+
+<footer>
+  <input
+    class="button" 
+    type="submit"
+    form="my-form" 
+    value="Salvar evento" />
+</footer>
+
+<footer>
+  <button
+    class="button" 
+    form = "my-form">
+    Salvar evento
+  </button>
+</footer>
+
+
+
+  https://yoksel.github.io/url-encoder/
+
+  https://www.todamateria.com.br/cinetica-quimica/
